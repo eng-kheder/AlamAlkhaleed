@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تواصل معنا | علم الخليج للسياحة والسفر</title>
+  <meta name="description" content="أرقام التواصل وواتساب وعنوان علم الخليج للسياحة والسفر.">
+  <meta name="theme-color" content="#0369a1">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="crumbs"><a href="index.html">الرئيسية</a> / تواصل معنا</div>
+        <h1>تواصل معنا</h1>
+        <p>يسعدنا تواصلكم عبر الاتصال المباشر أو واتساب.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact">
+        <div>
+          <div class="phone-cards" id="contact-phones"></div>
+          <div class="contact-info">
+            <div id="contact-address"></div>
+            <div id="contact-social"></div>
+          </div>
+        </div>
+
+        <form class="form-card" id="contact-form">
+          <h2>أرسل رسالة عبر واتساب</h2>
+          <p>املأ البيانات وسيتم فتح محادثة واتساب برسالتك جاهزة للإرسال.</p>
+          <div class="field">
+            <label for="cf-name">الاسم</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="cf-phone">رقم الهاتف (اختياري)</label>
+              <input id="cf-phone" name="phone" type="tel" autocomplete="tel" dir="ltr">
+            </div>
+            <div class="field">
+              <label for="cf-service">الخدمة</label>
+              <select id="cf-service" name="service">
+                <option value="">اختر الخدمة</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cf-message">الرسالة</label>
+            <textarea id="cf-message" name="message" required></textarea>
+          </div>
+          <div class="field">
+            <label for="cf-to">إرسال إلى الرقم</label>
+            <select id="cf-to" name="to" dir="ltr"></select>
+          </div>
+          <button class="btn btn--wa" type="submit"><span data-icon="whatsapp"></span>إرسال عبر واتساب</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
